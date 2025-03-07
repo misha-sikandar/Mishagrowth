@@ -21,3 +21,13 @@ if reflection:
 else:
     st.info("Reflecting on past experience help you grow! Share your difficulties")
 
+st.header("Celebrate Your Wins!")
+achievement=st.text_input("Share something you've recently accomplished:")
+
+if achievement:
+    st.success(f"Amazing! You achieved: {achievement}")
+else:
+    st.info("Big or small, every achievement counts! Share one now")
+
+st.write("- - -")
+st.write("Keep believing in yourself. Growth is a journey, not a destination!")
